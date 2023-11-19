@@ -41,7 +41,8 @@ ol {
 .page {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 135px 1fr 135px;
+  place-content:center ;
+  block-size: 100%;
   margin: 0 auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
